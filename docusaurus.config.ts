@@ -29,7 +29,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl:
-            'https://gitlab.informatik.hs-augsburg.de/firmware-analysis/firmware_vault',
+            'https://github.com/nmkzzztos/firmware_vault_documentation',
         },
         theme: {
           customCss: './src/css/custom.css',
