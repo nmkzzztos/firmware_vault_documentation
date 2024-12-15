@@ -7,10 +7,10 @@ const config: Config = {
   favicon: 'img/logo.png',
 
   url: 'https://gitlab.informatik.hs-augsburg.de',
-  baseUrl: '/firmware-analysis-docs',
+  baseUrl: '/firmware_vault_documentation',
 
   organizationName: 'gitlab.informatik.hs-augsburg.de',
-  projectName: 'firmware-analysis',
+  projectName: 'firmware_vault_docs',
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 

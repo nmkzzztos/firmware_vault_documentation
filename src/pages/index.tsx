@@ -14,7 +14,7 @@ function HomepageHeader() {
     <header className={clsx('hero hero--secondary', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          <img src="img/logo.png" style={{width: '150px'}} alt="Firmware-Analysis Logo" />
+          <img src="img/logo.png" style={{width: '150px'}} alt="Firmware Vault Logo" />
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
@@ -32,8 +32,8 @@ function HomepageHeader() {
 export default function Home(): JSX.Element {
   return (
     <Layout
-      title={`Firmware-Analysis`}
-      description="Firmware-Analysis">
+      title={`Firmware Vault`}
+      description="Firmware Vault">
       <HomepageHeader />
       <main>
         <Slider />
