@@ -29,7 +29,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl:
-            'https://github.com/nmkzzztos/firmware_vault_documentation',
+            'https://github.com/nmkzzztos/firmware_vault_documentation/tree/main',
         },
         theme: {
           customCss: './src/css/custom.css',
