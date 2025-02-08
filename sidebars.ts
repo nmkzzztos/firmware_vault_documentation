@@ -39,6 +39,11 @@ const sidebars: SidebarsConfig = {
       label: 'Backend',
       items: ['Backend/introduction', 'Backend/wrapperdoku'],
     },
+    {
+      type: 'category',
+      label: 'Documentation',
+      items: ['Documentation/docusaurus'],
+    },
   ],
 };
 

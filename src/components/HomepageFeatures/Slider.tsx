@@ -17,33 +17,27 @@ const Slider = () => {
         "translate3d(-140%, -50%, 0rem) rotateY(0deg) scale(0.6)",
         "translate3d(-50%, -50%, 0rem) rotateY(0deg) scale(1)",
         "translate3d(40%, -50%, 0rem) rotateY(0deg) scale(0.6)",
-        "translate3d(-50%, -50%, -1rem) rotateY(-90deg) scale(0.01)",
     ];
+    
 
     const content = [
         {
-            title: "Lorem ipsum dolor sit amet",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            lightImage: 'img/slider/4.png',
-            darkImage: 'img/slider/4.png'
+            title: "Comprehensive Firmware Analysis Platform",
+            description: "Our platform features an intuitive frontend with dynamic pages, allowing users to create analysis jobs for firmware images, interact with the database, and review detailed results in an organized and efficient manner.",
+            lightImage: 'img/slider/pages.png',
+            darkImage: 'img/slider/pages.png'
         },
         {
-            title: "Lorem ipsum dolor sit amet",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            lightImage: 'img/slider/1.svg',
-            darkImage: 'img/slider/1_dark.svg'
+            title: "Automated Firmware Scraping",
+            description: "A powerful scraper automatically collects firmware images from various sources, ensuring an up-to-date and extensive database for further analysis. This seamless automation saves time and enhances research capabilities.",
+            lightImage: 'img/slider/scraper.svg',
+            darkImage: 'img/slider/scraper.svg'
         },
         {
-            title: "Lorem ipsum dolor sit amet",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            lightImage: 'img/slider/2.png',
-            darkImage: 'img/slider/2.png'
-        },
-        {
-            title: "Lorem ipsum dolor sit amet",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            lightImage: 'img/slider/3.png',
-            darkImage: 'img/slider/3.png'
+            title: "Advanced Analysis Tools",
+            description: "Leverage three specialized tools for firmware examination: unpack firmware images, extract meaningful data, and identify vulnerabilities or anomalies. These tools provide deep insights and improve security assessments.",
+            lightImage: 'img/slider/tools.svg',
+            darkImage: 'img/slider/tools.svg'
         },
     ];
 

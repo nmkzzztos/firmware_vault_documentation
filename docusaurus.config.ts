@@ -74,6 +74,10 @@ const config: Config = {
               label: 'Backend',
               to: '/docs/Backend/introduction',
             },
+            {
+              label: 'Documentation',
+              to: '/docs/Documentation/docusaurus',
+            },
           ],
         },
         // {
