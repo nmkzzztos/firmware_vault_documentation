@@ -20,25 +20,23 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Getting Started',
-      items: ['Getting Started/installation', {
-        type: 'category',
-        label: 'How to use',
-          items: ['Getting Started/How to use/firmware_vault'],
-        },
-        'Getting Started/debugdocker',
-        'Getting Started/knowntodos',
+      items: [
+        'Getting Started/installation',
+        'Getting Started/howtouse',
       ],
     },
+
     {
       type: 'category',
       label: 'Frontend',
-      items: ['Frontend/introduction'],
+      items: ['Frontend/overview',  'Frontend/firmware-vault', 'Frontend/data-explorer'],
     },
     {
       type: 'category',
       label: 'Backend',
       items: ['Backend/introduction', 'Backend/wrapperdoku'],
     },
+
     {
       type: 'category',
       label: 'Documentation',

@@ -9,6 +9,7 @@ Official Documentation: https://docusaurus.io/docs/
 
 https://docusaurus.io/docs/create-doc
 
+
 1) Create a new Markdown file (`.md`) in the appropriate directory under `docs/`:
 
 ```bash
@@ -49,12 +50,19 @@ Your content here...
 
 https://docusaurus.io/docs/markdown-features#images
 
-1) Add images to the `docs/img/` directory.
+1) To add an image, you have to put it in the img folder of the directory where the markdown file is located.
 
 ```bash
+# Example for the root docs folder
 docs/
 └── img/
-    └── your-new-image.png // Add the new image here
+    └── your-new-image.png // If the markdown file is located in the root docs folder.
+
+# Example for a specific folder
+docs/
+└── Frontend/
+    └── img/
+        └── your-new-image.png // If the markdown file is located in a specific folder.
 ```
 
 2) Reference the image in your Markdown file using the following syntax:

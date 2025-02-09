@@ -3,8 +3,6 @@ id: introduction
 title: Introduction
 ---
 
-# Overview
-
 # About Firmwarevault
 
 In our project, we aim to build a system that automates firmware analysis as much as possible. Firmware_Vault independently collects firmware images from device manufacturers and catalogs them. With a user-friendly interface, analysis jobs can be created. Users have great flexibility in choosing analysis methods and the ability to run jobs repeatedly. This way, a wide collection of various firmware can be quickly and mostly automatically scanned for vulnerabilities.
