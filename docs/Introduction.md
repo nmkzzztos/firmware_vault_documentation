@@ -65,7 +65,3 @@ All components of Firmware Vault run in Docker containers. To avoid lengthy setu
 Data that needs to be stored in a file system should be stored in a Docker volume that references a folder in the /docker_compose_dir/volumes.
 
 If you're having trouble with Docker, take a look at the DebugDocker documentation.
-
-# **Todos** 
-
-If you're interested in improving Firmware Vault, take a look in the [Known TODOs](Getting%20Started/knowntodos).
