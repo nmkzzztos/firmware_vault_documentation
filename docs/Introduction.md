@@ -3,9 +3,9 @@ id: introduction
 title: Introduction
 ---
 
-# About Firmwarevault
+# About Firmware_vault
 
-In our project, we aim to build a system that automates firmware analysis as much as possible. Firmware_Vault independently collects firmware images from device manufacturers and catalogs them. With a user-friendly interface, analysis jobs can be created. Users have great flexibility in choosing analysis methods and the ability to run jobs repeatedly. This way, a wide collection of various firmware can be quickly and mostly automatically scanned for vulnerabilities.
+This project aims to automate firmware analysis as much as possible. Firmware_Vault independently collects firmware images from device manufacturers using the [AMOS Firmware Scraper](https://github.com/amosproj/amos2022ws01-firmware-scraper) and catalogs them. With a user-friendly interface, analysis jobs can be created. Users have great flexibility in choosing analysis methods (eg. binwalk, cve-bin-tool .. etc.) and the ability to run jobs repeatedly as cronjobs. This way, a wide collection of various firmware can be quickly scanned for vulnerabilities.
 
 ![About Firmwarevault](img/architecture.svg)
 
@@ -16,9 +16,9 @@ In our project, we aim to build a system that automates firmware analysis as muc
 
 ## Frontend
 
-* To simplify user interactions, a simple web UI is provided.
+* To simplify user interactions, a reworked web UI is provided.
 * It can be viewed by visiting port 80 (HTTP) of the host the system is running on.
-* From here, the user can run non-editing SQL queries, view the analysis jobs and the test results, as well as create new analysis jobs.
+* From here, the user can interact with the three main parts that make the UI; [Data Explorer](https://nmkzzztos.github.io/firmware_vault_documentation/docs/Frontend/data-explorer), [Firmware Vault](https://nmkzzztos.github.io/firmware_vault_documentation/docs/Frontend/firmware-vault) and [Overview](https://nmkzzztos.github.io/firmware_vault_documentation/docs/Frontend/overview).
 
 ## Analysis Engine
 
@@ -46,7 +46,7 @@ In our project, we aim to build a system that automates firmware analysis as muc
      
         * executor.py program runs in this container.
         * The analysis tools, like binwalk, etc., will also be executed in this container.
-        * To use new analysis tools, they will have to be loaded onto the executor container.
+        * To use new analysis tools, **they will have to be loaded onto the executor container** using the executor's _Dockerfile_.
 
         * executor.py: 
 
