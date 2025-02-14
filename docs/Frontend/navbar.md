@@ -1,9 +1,7 @@
 ---
 id: navbar
-title: Navbar
+title: Navigation Bar
 ---
-
-# Navbar
 
 ## Overview
 The `NavbarComponent` is an Angular component that provides a navigation bar for the application. It enables users to navigate between different sections and access external documentation. The component utilizes Angular's `Router` service for internal navigation and standard HTML links for external resources.
