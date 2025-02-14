@@ -34,4 +34,3 @@ Initially, static custom tables were used for rendering and managing data. Howev
 | **Row Selection** | Allows row selection for user interactions. |
 | **Action Buttons** | Custom button renderer for interactive operations. |
 | **Real-Time Updates** | Integrates with backend services to update data dynamically. |
-

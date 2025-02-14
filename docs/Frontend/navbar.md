@@ -19,5 +19,5 @@ The `NavbarComponent` is an Angular component that provides a navigation bar for
 
 The component consists of three main sections:
 1. **Left Section** - Contains the application logo linking to the [documentation](../../) page.
-2. **Center Section** - Houses the navigation links for different application sections ([Firmware Vault](./firmwarevault.md), [Data Explorer](./dataexplorer.md), [Job Dashboard](./jobdashboard.md)).
+2. **Center Section** - Houses the navigation links for different application sections ([Firmware Vault](./firmwarevault.md), [Data Explorer](./dataexplorer.md), Job Dashboard).
 3. **Right Section** - Provides access to the [How to use](../Getting%20Started/howtouse.md) documentation button.
