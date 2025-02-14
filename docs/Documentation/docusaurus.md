@@ -28,8 +28,8 @@ docs/
 
 ```markdown
 ---
-title: Your New Page Title 
-sidebar_label: Your New Page Label
+id: your-new-file
+title: Your New File Title
 ---
 
 Your content here...
@@ -92,32 +92,6 @@ docs/
       label: 'New Item', // Add the new item here
       to: '/docs/new-item',
     },
-  ],
-},
-```
-
-### [Sidebar new category](https://docusaurus.io/docs/sidebar/items)
-
-1) Create a new file in the `docs` folder and include the following content. Ensure that you add the new category to the `items` array:
-
-```markdown
----
-id: your-new-file
-title: Your New File Title
----
-
-Your content here...
-```	
-
-2) Update the `sidebars.ts` file in the `gettingStartedSidebar` section by adding the new category to the `items` array:
-
-```typescript
-{
-  type: 'category',
-  label: 'Frontend',
-  items: [
-    'Frontend/introduction',
-    'Frontend/your-new-file'  // Include your new file here
   ],
 },
 ```
