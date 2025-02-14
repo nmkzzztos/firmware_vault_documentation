@@ -29,7 +29,21 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Frontend',
-      items: ['Frontend/overview',  'Frontend/firmware-vault', 'Frontend/data-explorer'],
+      items: ['Frontend/overview',
+              'Frontend/navbar',
+              'Frontend/firmware-vault', 
+              'Frontend/data-explorer',
+              {
+                type: 'category',
+                label: 'Services',
+                items: ['Frontend/Services/dynamicsqlquerybuilder'],
+              },
+              {
+                type: 'category',
+                label: 'Integrations',
+                items: ['Frontend/Integrations/aggrid'],
+              }
+            ],
     },
     {
       type: 'category',

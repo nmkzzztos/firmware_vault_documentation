@@ -17,12 +17,12 @@ This project is an Angular-based frontend application designed to manage firmwar
 - [Node.js](https://nodejs.org/en/download) (>= 14.x)
 - [Angular CLI](https://angular.dev/tools/cli) (>= 17.x)
 
-### Installation
+**Installation**
 ```sh
 npm install
 ```
 
-### Running the Application
+**Running the Application**
 ```sh
 npm start
 ```
@@ -33,11 +33,22 @@ ng serve
 This will start a development server at `http://localhost:4200/`.
 
 
-### Building the Application
+**Building the Application**
 ```sh
 npm run build
 ```
 This command compiles the project for production.
+
+:::info
+To connect to the backend Docker container from your local environment, you must update the backend URL in the `config.json` file.
+
+```json
+{
+  "frontend":  {
+    "baseUrl":  "http://localhost:5000/"
+  }
+}
+:::
 
 ## Project Structure
 ### Core Modules

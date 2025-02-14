@@ -37,9 +37,10 @@ The Firmware Vault provides a user-friendly interface for selecting firmware, ch
 - `onFirmwareSelect(firmware: FirmwareVersion)`: Handles firmware selection.
 
 ### **Services Used**
-- **Scraper Service**: Manages firmware data retrieval from the database using SQL queries.
+**Scraper Service**: Manages firmware data retrieval from the database using SQL queries.
   - `getFirmwareData()`: Fetches firmware details, including manufacturer, product name, version, and download link.
-- **Jobs Service**: Handles interaction with the backend for managing jobs. Manages job creation, retrieval, and toggling.
+
+**Jobs Service**: Handles interaction with the backend for managing jobs. Manages job creation, retrieval, and toggling.
   - `getJobs()`: Fetches all jobs.
   - `addJob(job)`: Submits a new job to the backend.
   - `getJob(job_id)`: Retrieves details of a specific job.

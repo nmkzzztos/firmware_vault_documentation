@@ -39,10 +39,11 @@ The Data Explorer component provides an interactive SQL query builder, allowing 
 - `updateSqlQuery()`: Constructs the SQL query based on selected tables and columns.
 
 ### **Services Used**
-- **Image Service**: Executes SQL queries and returns the results.
+ **Image Service**: Executes SQL queries and returns the results.
   - `testSQL(sqlQuery)`: Sends SQL query to the backend for execution.
   - `getCveResults()`: Fetches CVE results from the API.
-- **Dynamic Sql Query Builder Service**: Builds SQL queries dynamically based on user selections.
+  
+[Dynamic SQL Query Builder Service](./Services/dynamicsqlquerybuilder.md): Builds SQL queries dynamically based on user selections.
   - Defines **table relationships** for automatic JOIN clause generation.
   - Generates **SELECT, FROM, WHERE, ORDER BY, and LIMIT** clauses dynamically.
   - Implements `generateQuery()`, `generateJoins()`, `validateTables()`, and `getRelationship()` methods.

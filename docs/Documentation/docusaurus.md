@@ -3,11 +3,13 @@ title: Docusaurus
 sidebar_label: Docusaurus
 ---
 
-Official Documentation: https://docusaurus.io/docs/
+## Overview
 
-### Create a new documentation page
+This documentation is built using [Docusaurus](https://docusaurus.io/docs/). Docusaurus is a static site generator that is used to create documentation websites. It is a modern and flexible tool that allows for easy creation and maintenance of documentation websites.
 
-https://docusaurus.io/docs/create-doc
+![Docusaurus](img/docusaurus.svg)
+
+### [Create a new documentation page](https://docusaurus.io/docs/create-doc)
 
 
 1) Create a new Markdown file (`.md`) in the appropriate directory under `docs/`:
@@ -46,9 +48,7 @@ Your content here...
 },
 ```
 
-### Images
-
-https://docusaurus.io/docs/markdown-features#images
+### [Images](https://docusaurus.io/docs/markdown-features#images)
 
 1) To add an image, you have to put it in the img folder of the directory where the markdown file is located.
 
@@ -71,9 +71,8 @@ docs/
 ![Image Description](img/your-new-image.png)
 ```
 
-### Navbar new category
+### [Navbar new category](https://docusaurus.io/docs/docs-multi-instance#docs-navbar-items)
 
-https://docusaurus.io/docs/docs-multi-instance#docs-navbar-items
 
 1) Add the following to the `docusaurus.config.ts` file in the `themeConfig` section. Make sure to add the new category to the `items` array:
 
@@ -96,8 +95,3 @@ https://docusaurus.io/docs/docs-multi-instance#docs-navbar-items
   ],
 },
 ```
-
-
-
-
-
