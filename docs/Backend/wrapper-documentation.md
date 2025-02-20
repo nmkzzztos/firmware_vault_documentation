@@ -1,27 +1,12 @@
+---
+id: wrapper-documentation
+title: Write Your Own Wrapper
+---
+
 # Wrapper Documentation
 
 The wrappers for the analysis tools are currently stored in the ```/jobs/```
 directory of the Project
-
-## cve-bin-tool.py
-
-The cve-bin-tool.py is an example implementation of a wrapper for an analysis 
-tool. In this case Intel's [cve-bin-tool](https://github.com/intel/cve-bin-tool)
-was used. The analysis binary gets called with the path to analyze and the 
-output gets written to a ```json``` file. Before the data of the output file 
-gets inserted, it is checked whether the data already exists in the database 
-or not, so the results are not inserted twice.
-
-## binwalk
-
-```binwalk3.py``` automates the process of running Binwalk on a given firmware 
-image, extracting relevant information, and storing the results in a 
-database.
-It runs with the ```-Me``` flags, which are required for deeper analysis
-
-## Firmwalker
-
-```firmwalker_service.py``` is a wrapper around the [firmwalker.sh](https://github.com/craigz28/firmwalker) open-source bash script, which automates finding file that could be of interest for further analysis, such as **/etc/shadow** or .cfg files. 
 
 ## Requirements for writing your own analysis wrapper
 
@@ -119,6 +104,7 @@ def handle_request()` method. Don't forget to make the necessary changes to the 
 - Finally, you need to edit the `Dockerfile_executor`. Copy your newly created **client-side script** into the working directory. Also, don't forget to add any necessary commands to install/load the analysis tool you are wrapping.
 
 
-**Note:**
+**Notes:**
 
-The previous example was based on `firmwalker_service.py`, which doesn't save the output to the database, if that functionality is needed, please refer to `binwalk3.py`. 
+1. The previous example was based on `firmwalker_service.py`, which doesn't save the output to the database, if that functionality is needed, please refer to `binwalk3.py`. 
+2. After finishing a module, it must be added to the project's Docker setup, a detailed tutorial is available in the `Firmwalker` tab on the sidebar, where the module Firmwalker is taken as an example. 

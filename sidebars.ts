@@ -48,7 +48,11 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Backend',
-      items: ['Backend/introduction', 'Backend/wrapperdoku'],
+      items: [
+        'Backend/introduction', 
+        'Backend/implemented-modules', 
+        'Backend/wrapper-documentation',
+        'Backend/firmwalker'],
     },
 
     {
