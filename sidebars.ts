@@ -52,8 +52,8 @@ const sidebars: SidebarsConfig = {
         'Backend/introduction',
         'Backend/wrapper-documentation',
         'Backend/implemented-modules', 
-        'Backend/firmwalker'],
-        'Backend/debugging-docker',
+        'Backend/firmwalker',
+        'Backend/debugging-docker'],
     },
 
     {
