@@ -49,10 +49,11 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Backend',
       items: [
-        'Backend/introduction', 
-        'Backend/implemented-modules', 
+        'Backend/introduction',
         'Backend/wrapper-documentation',
+        'Backend/implemented-modules', 
         'Backend/firmwalker'],
+        'Backend/debugging-docker',
     },
 
     {
